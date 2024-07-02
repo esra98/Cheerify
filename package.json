@@ -1,17 +1,17 @@
 {
-  "name": "3d-ui-lib",
+  "name": "@esra98/cheerify",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "dist/3d-ui-lib-umd.cjs",
-  "module": "dist/3d-ui-lib.js",
+  "main": "dist/cheerify-umd.cjs",
+  "module": "dist/cheerify.js",
   "exports": {
     ".": {
-      "import": "./dist/simple-ui.js",
-      "require": "./dist/simple-ui-umd.cjs"
+      "import": "./dist/cheerify.js",
+      "require": "./dist/cheerify-umd.cjs"
     }
   },
   "scripts": {

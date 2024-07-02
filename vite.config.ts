@@ -12,8 +12,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "./src/components/index.tsx"),
-      name: "3D UI Lib",
-      fileName: "3d-ui-lib",
+      name: "cheerify",
+      fileName: "cheerify",
     },
     rollupOptions: {
       external: ["react", "react-dom"],
